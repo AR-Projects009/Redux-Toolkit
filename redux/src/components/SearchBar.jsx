@@ -25,6 +25,7 @@ const SearchBar = () => {
           onChange={(e) => {
             setText(e.target.value);
           }}
+          autoFocus
           required
           className="w-full border-2 px-4 py-2 text-xl rounded outline-none"
           type="text"
