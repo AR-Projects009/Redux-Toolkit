@@ -1,5 +1,9 @@
 @import "tailwindcss";
-
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
 #bottom {
   background: linear-gradient(transparent, black);
+}
+
+* {
+  font-family: "Saira Stencil One, Cursive";
 }
